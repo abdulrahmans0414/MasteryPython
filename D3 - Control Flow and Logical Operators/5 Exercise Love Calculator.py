@@ -80,7 +80,7 @@ Kanye West	Kim Kardashian	42
 print("The Love Calculator is calculating your score...")
 name1 = input()  # What is your name?
 name2 = input()  # What is their name?
-# Your code below this line 👇
+
 combined_names = name1 + name2
 lower_names = combined_names.lower()
 t = lower_names.count("t")
