@@ -38,4 +38,11 @@ indian_states = [
 ]
 print(len(indian_states))
 
-dozen =["staraway", "Spinach", "kale", "Nactarines", "Apples", "grapes", "Peaches", "Cherries", "Pears"]
+# dozen =["staraway", "Spinach", "kale", "Nactarines", "Apples", "grapes", "Peaches", "Cherries", "Pears"]
+
+fruits =["apple", "banana", "peaches", "cherries"]
+
+vegetables =['tomato', 'potato', 'onion']
+
+dozen =[fruits,vegetables]
+print(dozen)
