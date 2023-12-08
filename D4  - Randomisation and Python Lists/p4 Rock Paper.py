@@ -29,10 +29,14 @@ scissors = '''
 ---.__(___)
 '''
 
+game_images = [rock, paper, scissors]
+
 user_choices = int(input("What do you choose ? Type 0 for Rock , 1 for Paper or 2 for Scissors.\n" ))
+print(game_images[user_choices])
 
 computer_choices = random.randint(0,2)
-print (f"Computer choices {computer_choices}")
+print ("Computer choices :")
+print(game_images[computer_choices])
 
 if user_choices >= 3 or user_choices <0 :
     print("you type an invalid number, you lose !")
