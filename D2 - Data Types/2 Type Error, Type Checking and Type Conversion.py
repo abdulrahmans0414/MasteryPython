@@ -1,18 +1,29 @@
 # Type error , type checking and type conversion
 
-# num_char = len(input("What is your name?"))
-# new_num_char = str(num_char)
-# print("Your name has " + new_num_char + " characters.")
+# TypeError
+# len(123)
 
-# print(type(num_char))
+# No TypeError
+len("Hello")
 
+# Type checking
+print(type("abc"))
+print(type(123))
+print(type(3.14))
+print(type(True))
 
-# type check
+# example
 a = 123
 print(type(a))
 
 
-# type conversion
+# Type Conversion
+str()
+int()
+float()
+bool()
+
+# example
 a=str(123)
 print(type(a))
 
@@ -21,3 +32,13 @@ print(type(a))
 
 # print(70 + float("100.5"))
 print(str(70)+ str(100))
+
+
+
+name_of_the_user = input("Enter your name")
+length_of_name = len(name_of_the_user)
+
+print(type("Number of letters in your name: "))  # str
+print(type(length_of_name))  # int
+
+print("Number of letters in your name: " + str(length_of_name))
