@@ -1,47 +1,37 @@
 # Number Manipulation and F Strings in Python
 
-# float
-print(8/3)
+bmi = 84 / 1.65 ** 2
 
-# into integer
-print(int(8/3))
+# Original Float with decimal places
+print(bmi)
 
-# round numbers
-print(round(8/3))
+# Flooring the number by converting it into int
+print(int(bmi))
 
-# the number of digits of prcison you want to round it to
-print(round(8/3, 2))
+# Rounding the number into a whole number
+print(round(bmi))
 
-# floor division
-print(8 // 3 )
-print(type(8 // 3 ))
-print(type(8 / 3 ))
+# Rounding only to 2 decimal places
+print(round(bmi, 2))
 
 
-# result calculation into a variable
-result = 4 / 2
 
-# again devided by 2
-result /= 2
-print(result)
-
-
-# User initial score 
+## Accumulate
 score = 0
 
-# user scores a point
-
-# score = score + 1
-# same as above
-score += 1 
-# same i can use -= , *= and /= 
-
+# User scores a point
+score += 1
 print(score)
-print("Your score is " + str(score) )
 
-# F String 
+#Also
+score -= 1
+score *= 2
+score /= 2
+
+score = 0
 height = 1.8
-isWinnig = True
-print(f"your score is {score}, your height is {height}, you are winning is {isWinnig}")
+is_winning = True
 
+# F strings
+print(f"Your score is = {score}, your height is {height}. You are winning is {is_winning}")
 
