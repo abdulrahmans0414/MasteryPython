@@ -1,14 +1,24 @@
 # Mathmatical Operations in Python
-# 3 + 5 addition
-# 7 - 4 subtraction
-# 3 * 2 multiplication
-# 6 / 3 division
+
+print("My age: " + str(12))
+print(123 + 456) #addition
+print(7 - 3)     #subtraction
+print(3 * 2)     #multiplication
+print(5 / 3)     #division
+print(5 // 3)    #remainder
+print(2**3)      #power
+
 # print(type(6/3))  float 
-# ** power 
-# print(2**3)
+
+# PEMDASLR Order -> (parenthese > Exponent > Mult > Div > Add > Sub)
+# ()
+# **
+# * OR /
+# + OR -
 
 
-# PEMDAS 
-# (parenthese > Exponent > Mult > Div > Add > Sub)
+# Outputs 7
+print(3 * 3 + 3 / 3 - 3)
 
-print(3 * 3 + 3 / 3 -3 )
+# Outputs 3
+print(3 * 3 + 3 / 3 - 3)
