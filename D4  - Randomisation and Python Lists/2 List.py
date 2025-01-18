@@ -36,7 +36,7 @@ indian_states = [
     'Lakshadweep',
     'Puducherry'
 ]
-print(indian_states)
+# print(indian_states)
 
 # at index 1
 print(indian_states[1])
@@ -46,9 +46,9 @@ indian_states[2] ="AP"
 print(indian_states[2])
 
 # add list using append in new state
-indian_states.append("pok")
+indian_states.append("pok") # add signal items to the end
 print(indian_states)
 
 # in extend we as add list  indian states
-indian_states.extend(['pakitan', 'khalistan','afganistan','bangladesh'])
+indian_states.extend(['pakitan', 'khalistan','afganistan','bangladesh']) 
 print(indian_states)
